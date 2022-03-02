@@ -1,0 +1,24 @@
+Erica Hollander
+In this project, I made a Quick Sorter, Insertion Sorter, and Merge Sorter. 
+Through creating these sorters that have the same output, it was interesting to 
+see the different runtimes and the amount of compares for each of the sorters. 
+Honesty this project was really helpful to visual the sorters. For all of these 
+I will be taking about the order from greatest to least based on total run time. 
+For the first 10 word file I was given, the order I got was Insertion Sorter as 
+the fastest sorter, Merge Sorter as the second fastest, and then Quick Sorter. 
+Since this word list has a small n, it makes sense that Insertion Sort, which runs 
+with linear time (O(n)) would be the fastest in this case.  The next two files, 100 
+and 1000 words, I got the order from fastest to slowest total sorting time of Merge Sort, 
+Quick Sort, and Insertion Sort. This makes sense in this order because we do not have large 
+n just yet, so it is okay that we do not have the expected Quick Sort to be the fastest. 
+For 10,000 words, I still got the same order, but I would like to denote that Merge Sort 
+and Quick Sort have almost the same time; they were off by 100ms. For our last files, I started
+ to see Big O notation coming into play. Our order switches to Quick Sort, Merge Sort, 
+ and then Insertion Sort. I did expect Quick Sort to have the fastest time, but it is unstable 
+ with an O(n^2) so I knew that sometimes it would be second to MergeSort when it has closer to a 
+ worse case scenario. Overall, with the different scenarios I tested, the results I have gotten 
+ have helped me more clearly see these sorters in action.
+
+ Sorry I wrote this in google docs and then copy and pasted it and pressed enter, so it is kind of weirdly sloped. 
+ Hope you have a great day ;)
+ 
